@@ -1,26 +1,29 @@
 <tal:t i18n:domain="senaite.impress">
-
-  <div class="row section-header no-gutters">
-    <!-- Header Table -->
-    <div class="w-100 mb-2">
-      <table class="w-100 mb-0 noborder">
+  <div class="row section-header no-gutters" style="margin-bottom: 0;">
+    <div class="w-100 mb-0" style="padding: 0;">
+      <table class="w-100 mb-0 noborder" style="border-spacing: 0; padding: 0;">
         <colgroup>
-          <col style="width:50%"/>
-          <col style="width:50%;"/>
-        </colgroup>
+          <col style="width: 25%;"/> <col style="width: 50%;"/> <col style="width: 25%;"/> </colgroup>
         <tr>
-          <!-- Header Left -->
-          <td class="align-middle text-left">
-            <h1 i18n:translate="">Analysis Report</h1>
-          </td>
-          <!-- Header Right -->
-          <td class="align-middle text-right">
+          <td class="align-middle text-left" style="padding: 5px 0;">
             <img class="logo"
-                 tal:attributes="src string:++plone++senaite.core.static/images/senaite.svg"/>
+                 style="width: 150px; height: auto; display: block; margin: 0 auto; vertical-align: middle;"
+                 tal:attributes="src string: /senaite3/logo1.png"/>
           </td>
+          <td class="align-middle text-center" style="padding: 5px 0; line-height: 1.2;">
+            <h1 style="font-size: 10px; margin-bottom: 2px; color: #1e4e79; font-weight: bold; line-height: 1.2;" i18n:translate="">AJEENKYA D Y PATIL SCHOOL OF ENGINEERING</h1>
+            <h2 style="font-size: 14px; margin-bottom: 2px; color: #1e4e79; font-weight: bold; line-height: 1.2;" i18n:translate="">TESTING & CONSULTANCY SERVICES LAB</h2>
+            <p style="font-size: 10px; margin-bottom: 2px; color: #e79a32; font-weight: bold; line-height: 1.2;" i18n:translate="">NABL Accredited Laboratory</p>
+            <p style="font-size: 10px; margin-bottom: 2px; color: #000000; font-weight: bold; line-height: 1.2;" i18n:translate="">DR. DY PATIL TECHNICAL CAMPUS CHARHOLI (BK.), PUNE - 412105</p>
+            <p style="font-size: 10px; margin: 0; color: #000000; font-weight: bold; line-height: 1.2;" i18n:translate="">CONTACT: 7757888164, 9096288103, 9766911877</p>
+          </td>
+          <td class="align-middle text-right" style="padding: 5px 0;">
+            <img class="logo"
+                 style="width: 100px; height: auto; display: block; margin: 0 auto; vertical-align: middle;"
+                 tal:attributes="src string: /senaite3/nabl_id"/>
+             </td>
         </tr>
       </table>
     </div>
   </div>
-
 </tal:t>
